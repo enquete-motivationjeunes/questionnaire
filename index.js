@@ -1,0 +1,7 @@
+const urlList = ["https://questionnaires.univ-nantes.fr/index.php/348637?lang=fr","https://questionnaires.univ-nantes.fr/index.php/286916?lang=fr", "https://questionnaires.univ-nantes.fr/index.php/367774?lang=fr", "https://questionnaires.univ-nantes.fr/index.php/971457?lang=fr","https://questionnaires.univ-nantes.fr/index.php/987974?lang=fr","https://questionnaires.univ-nantes.fr/index.php/672313?lang=fr","https://questionnaires.univ-nantes.fr/index.php/534431?lang=fr","https://questionnaires.univ-nantes.fr/index.php/368784?lang=fr","https://questionnaires.univ-nantes.fr/index.php/427521?lang=fr","https://questionnaires.univ-nantes.fr/index.php/276696?lang=fr","https://questionnaires.univ-nantes.fr/index.php/216469?lang=fr","https://questionnaires.univ-nantes.fr/index.php/712362?lang=fr","https://questionnaires.univ-nantes.fr/index.php/116971?lang=fr","https://questionnaires.univ-nantes.fr/index.php/139818?lang=fr","https://questionnaires.univ-nantes.fr/index.php/542533?lang=fr","https://questionnaires.univ-nantes.fr/index.php/449668?lang=fr","https://questionnaires.univ-nantes.fr/index.php/596628?lang=fr","https://questionnaires.univ-nantes.fr/index.php/542733?lang=fr","https://questionnaires.univ-nantes.fr/index.php/731234?lang=fr","https://questionnaires.univ-nantes.fr/index.php/221385?lang=fr"];
+
+window.location.href = urlList[Math.floor(Math.random() * (urlList.length -1))]
+
+function redirection() {
+    window.location.href = urlList[Math.floor(Math.random() * (urlList.length -1))]
+}
